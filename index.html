@@ -19,6 +19,17 @@
       color: #fff;
     }
 
+    .download-container {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px; /* Add horizontal spacing */
+      margin-top: 20px; /* Optional space from above */
+    }
+    
+    .download-container img {
+      height: 24px; /* Keep it nicely sized */
+    }
+
     .logo {
       width: 70%;
       height: auto;
@@ -69,7 +80,10 @@
   <iframe src="https://www.youtube.com/embed/_qYoOF4Zxog" allowfullscreen></iframe>
 
   <br/>
-  <a href="https://1drv.ms/f/c/74aac8a04cf3a27c/EpI57jA5Aa1In_z78-LYvFIBBp02bXJjx_Emt34E0mqyAA?e=PodyRl" class="download-link" download>Download Demo</a><img src="windows24.png"/>
+  <div class="download-container">
+  <a href="https://1drv.ms/f/c/..." class="download-link" download>Download Demo</a>
+  <img src="windows24.png" alt="Windows Icon">
+  </div>
   <br/><br/><br/>
   <img src="ue_white_mini.png" width="10%"/>
 </body>
