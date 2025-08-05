@@ -27,6 +27,18 @@
       color: #fff;
     }
 
+    .centered-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .centered-list ul {
+    text-align: left;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+  }
+
     .download-container {
       display: inline-flex;
       align-items: center;
@@ -111,6 +123,8 @@
     a.download-link {
       font-size: 2422qwpx;
     }
+
+      
   }
   </style>
 </head>
@@ -121,11 +135,14 @@
     <div class="title">Leveraging AI for Art Assets</div>
     <div class="paragraph">
       In the examples below, I used AI to generate consistent spritesheets. Here are some of the steps taken:<br/>
-        -I generated images in a style that fits together with the feel of the game, (image to image), then touch up the images<br/>
-        -I used that image as reference to animate using Veo 3 (Image to video)<br/>
-        -I edited the videos in Davinci Resolve to be able to playback in seemless loops<br/>
-        -I use gif to video-to-spritesheet converter<br/>
-    </div>
+     <div class="centered-list">
+    <ul>
+      <li>I generated images in a style that fits the feel of the game (image-to-image), then touched up the images</li>
+      <li>I used that image as reference to animate using Veo 3 (image-to-video)</li>
+      <li>I edited the videos in DaVinci Resolve to create seamless loops</li>
+      <li>I used a GIF-to-spritesheet converter for the final export</li>
+    </ul>
+</div>
 <table align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
   <tr>
     <td style="vertical-align: middle;"><img src="images/presentationTalking.png"/></td>
